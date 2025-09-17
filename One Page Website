@@ -1,0 +1,11 @@
+// Open lightbox
+function openLightbox(img) {
+  document.getElementById("lightbox").style.display = "block";
+  document.getElementById("lightbox-img").src = img.src;
+  document.getElementById("caption").innerHTML = img.alt;
+}
+
+// Close lightbox
+function closeLightbox() {
+  document.getElementById("lightbox").style.display = "none";
+}
